@@ -1,1 +1,1 @@
-unzip data/*.zip
+unzip data/"*.zip"
