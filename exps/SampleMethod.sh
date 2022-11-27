@@ -25,4 +25,4 @@ for f in "data/ProcessedDatasets/"**/**/*; do
 
 done
 
-
+python src/print_avg.py --res_dir "results/ProcessedDatasets" 
