@@ -7,9 +7,12 @@ for f in "data/ProcessedDatasets/"**/**/*; do
       echo $n
       python src/MLM_Script.py  --file "$f"\
                                 --model_arch 'bert-base-cased'\
-                                --concept_vector 'data/TypeVectors_'"$n"'/'"$type"'_vectors.pkl'
+                                --concept_vector 'data/TypeVectors_'"$n"'/'"$type"'_vectors.pkl'\
+                                --method_label "$n"
+
   done
 
 done
 
 
+python print_avg.py --res_dir "results/ProcessedDatasets" 

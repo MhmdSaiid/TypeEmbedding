@@ -18,10 +18,9 @@ for f in "data/ProcessedDatasets/"**/**/*; do
       python src/MLM_Script.py  --file "$f"\
                                 --model_arch 'bert-base-cased'\
                                 --concept_vector 'data/RandomUniformTypeVectors_10/'"$type"'_vectors.pkl'\
-                                --method_label 'Rand'
+                                --method_label 'Unif'
 
 
-  done
 
 done
 

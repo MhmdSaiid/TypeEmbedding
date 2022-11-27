@@ -93,7 +93,7 @@ my_parser.add_argument('--num_samples',
 my_parser.add_argument('--sample_type',
                        type=str,
                        default='Weighted',
-                       choices=['Weighted','Top','Bot','Rand'],
+                       choices=['Weighted','Top','Bot','Unif'],
                        help='Sampling Method')
 
 
@@ -140,7 +140,7 @@ if __name__=='__main__':
 
         elif sample_type=='Bot':
             samples = list(type_df.sort_values(by='Degree',ascending=True)['Label'].iloc[:10])
-        elif sample_type=='Rand':
+        elif sample_type=='Unif':
             np.random.seed(seed)
             samples = choice(all_samples,size = min(num_samples,len(type_df)),replace = False)        
 

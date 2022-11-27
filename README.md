@@ -101,7 +101,7 @@ python src/GetTypeVecs.py --model_arch 'bert-base-cased'\
 * `--path`: folder containing samples for types in csv format
 * `--seed`: seed calue for reproducability
 * `--num_samples`: number of samples used
-* `--sample_type`: Sampling Method. Choose between Random Sampling (Rand), Random Weighted Sampling (Weighted), Most important samples (Top), and Least important sample (Bot)
+* `--sample_type`: Sampling Method. Choose between Uniform Random Sampling (Unif), Random Weighted Sampling (Weighted), Most important samples (Top), and Least important sample (Bot)
 
 
 ## Contact Us
