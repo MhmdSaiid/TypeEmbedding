@@ -2,7 +2,7 @@
 for f in "data/ProcessedDatasets/"**/**/*; do
   echo $'\n'
   echo "$f"
-  type=$(echo $f | cut -d '/' -f 2 | sed 's/synth_//'| sed 's/ /_/' )
+  type=$(echo $f | cut -d '/' -f 3 | sed 's/synth_//'| sed 's/ /_/' )
   echo $k
 
 
