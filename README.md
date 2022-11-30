@@ -40,7 +40,7 @@ bash exps/prepare_data.sh
 ## II. TE Analysis
 * Similarity [(exps/Similarity.ipynb)](exps/Similarity.ipynb)
 * SV distribution [(exps/Type_Eigen_Analysys.ipynb)](exps/Type_Eigen_Analysys.ipynb)
-* Adversarial metrics
+* Adversarial metrics (Under Construction)
     *    Adversarial Accuracy
                 ```
                 bash exps/PushTest.sh
@@ -49,11 +49,11 @@ bash exps/prepare_data.sh
                 ```
                 bash exps/SensTest.sh
                 ```
-* Layerwise Classification
+* Layerwise Classification (Under Construction)
         ```
         bash exps/LayerwiseTest.sh
         ```
-* TCAV Sensitivty [(exps/LW_TCAV.ipynb)](exps/LW_TCAV.ipynb)
+* TCAV Sensitivty [(exps/LW_TCAV.ipynb)](exps/LW_TCAV.ipynb) (Under Construction)
 
 
 
@@ -67,7 +67,7 @@ bash exps/prepare_data.sh
     python src/print_avg.py --res_dir "results/ProcessedDatasets" 
     ```
 
-* Run Extrinsic Experiments (Section X.X)
+* Run Extrinsic Experiments (Section X.X) (Under Construction)
     ```bash
     ```
 * Type Switch [(exps/Type_Switch.ipynb)](exps/Type_Switch.ipynb)
@@ -84,7 +84,7 @@ bash exps/prepare_data.sh
 
 * GPT-2 examples [(exps/GPT2+Concept.ipynb)](exps/GPT2+Concept.ipynb)
 
-* De-toxification
+* De-toxification (Under Construction)
 
 
 
